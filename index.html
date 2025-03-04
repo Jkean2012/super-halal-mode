@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <title>Super Halal  Mode | Home</title>
+  <link rel="stylesheet" href="/css/index.css">
+</head>
+<body>
+  <h1>Super Halal Mode</h1>
+
+  <form id="uv-form">
+    <input style="border-radius: 5vh;" id="uv-search-engine" value="https://www.google.com/search?q=%s" type="hidden"/> 
+    <input style="border-radius: 5vh;" id="uv-address" type="text" placeholder="Search unblocked!" class="form__input"/>
+  </form>
+  
+  <div class="desc">
+    <p id="uv-error"></p>
+    <pre id="uv-error-code"></pre>
+  </div>
+  
+  <script src="/js/uv/uv.bundle.js" defer></script>
+  <script src="/js/uv/uv.config.js" defer></script>
+  <script src="/js/uv/register-sw.js" defer></script>
+  <script src="/js/uv/search.js" defer></script>
+  <script src="/js/uv/index.js" defer></script>
+  <script src="/js/uv/error.js"></script>
+</body>
+</html>
