@@ -1,0 +1,92 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: #E97451;
+      color: white;
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      flex-direction: column;
+      overflow: hidden;
+      padding-top: 80px; 
+          background: url('/imgs/ezgif-3be980680a187.gif') no-repeat center center fixed; 
+      background-size: cover;
+    }
+
+    h1 {
+      font-size: 64px;
+      margin-bottom: 20px; 
+      background: linear-gradient(90deg, #0000FF, #301934);
+      font-weight: bold;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .navbar {
+      display: flex; 
+      justify-content: space-between; 
+      align-items: center; 
+      width: 100%;
+      background: linear-gradient(to right, #5ea9e2, #15c748, #ff7d01, #3c8d81, #2a5f4a, #f2c6a0, #600840 ,#33DBFF);
+      padding: 15px 20px; 
+      position: fixed; 
+      top: 0; 
+      left: 0; 
+      z-index: 1000; 
+    }
+
+    .brand {
+      font-size: 24px; 
+      color: white; 
+      font-weight: bold; 
+    }
+
+    .navbar-menu {
+      display: flex;
+      list-style: none;
+    }
+
+    .navbar-menu li {
+      margin: 0 5px;
+    }
+
+    .navbar-menu a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      display: block; 
+      padding: 10px 15px; 
+      border-radius: 5px; 
+      transition: background-color 0.3s; 
+    }
+
+    .navbar-menu a:hover {
+      background-color: rgba(255, 215, 0, 0.7);
+      color: black;
+    }
+
+    .desc {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .desc p {
+      color: rgba(255, 255, 255, 0.7);
+    }
+    
+    #uv-address {
+    width: 30vw; 
+    height: 5vw; 
+    border-radius: 0; 
+    padding: 10px; 
+    border: 1px solid #ccc;
+          background-color: white;
+          text-align: center;
+          text-color: white;
+}
